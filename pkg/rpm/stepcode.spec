@@ -23,7 +23,7 @@ Provides: stepcode-static = %{version}-%{release}
 %description
 STEPcode (formerly NIST's STEP Class Library) is used with IFC, STEP, and
 other standards that utilize the technologies of ISO10303 (STEP). It generates
-C++ and Python from EXPRESS (10303-11) schemas. The code is capable of reading
+C++ and Python from EXPRESS (10303-11) schemes. The code is capable of reading
 and writing STEP Part 21 exchange files. It also utilizes Parts 22 and 23
 (SDAI and its C++ binding).
 SC reads ISO10303-11 EXPRESS schemas and generates C++ source code that can
