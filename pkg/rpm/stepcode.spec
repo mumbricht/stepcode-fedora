@@ -26,7 +26,7 @@ other standards that utilize the technologies of ISO10303 (STEP). It generates
 C++ and Python from EXPRESS (10303-11) schemes. The code is capable of reading
 and writing STEP Part 21 exchange files. It also utilizes Parts 22 and 23
 (SDAI and its C++ binding).
-SC reads ISO10303-11 EXPRESS schemas and generates C++ source code that can
+SC reads ISO10303-11 EXPRESS schemes and generates C++ source code that can
 read and write Part 21 files conforming to that schema. In addition to C++, SC
 includes experimental support for Python.
 
