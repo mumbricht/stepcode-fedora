@@ -15,6 +15,9 @@ BuildRequires: cmake
 BuildRequires: gcc-c++
 BuildRequires: gcc
 
+BuildArch: x86_64
+# self-tests fail on aarch64
+
 %package devel
 Summary: Development files for %{name}
 Requires: %{name} = %{version}-%{release}
