@@ -15,7 +15,7 @@ BuildRequires: cmake
 BuildRequires: gcc-c++
 BuildRequires: gcc
 
-BuildArch: x86_64
+ExcludeArch: aarch64
 # self-tests fail on aarch64
 
 %package devel
