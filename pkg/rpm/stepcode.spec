@@ -15,7 +15,7 @@ BuildRequires: cmake
 BuildRequires: gcc-c++
 BuildRequires: gcc
 
-InclusiveArch: x86_64
+ExclusiveArch: x86_64
 # self-tests fail on all but x86_64 and s390x.  s390x times out.
 
 %package devel
